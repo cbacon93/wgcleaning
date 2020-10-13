@@ -20,7 +20,7 @@ for ($i=0; $i < sizeof($week); $i++)
   $u = getElementById($user, $uid);
   $d = getElementById($duties, $did);
   
-  $answ = readline ("Hat $u[name] $d[name] erledigt? [Y/n] ");
+  $answ = readline ("Did $u[name] do $d[name]? [Y/n] ");
   
   if ($answ == "y" || $answ == "Y")
   {
